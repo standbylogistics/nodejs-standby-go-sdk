@@ -1,0 +1,50 @@
+{
+  "name": "@standby/go",
+  "version": "0.0.1",
+  "description": "This is a NodeJS SDK to interact with StandBy API in a very easy way",
+  "keywords": [
+    "standby",
+    "sdk",
+    "logistics",
+    "delivery",
+    "last-mile",
+    "nodejs",
+    "typescript"
+  ],
+  "license": "MIT",
+  "author": "StandBy Logistics",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "start:dev": "tsc && nodemon --watch dist dist/index.js",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/node": "^24.10.0",
+    "eslint": "^9.39.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "eslint-plugin-unused-imports": "^4.3.0",
+    "globals": "^16.5.0",
+    "jiti": "^2.6.1",
+    "nodemon": "^3.1.10",
+    "prettier": "3.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.3"
+  },
+  "dependencies": {
+    "axios": "^1.13.1"
+  }
+}

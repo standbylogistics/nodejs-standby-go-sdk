@@ -1,0 +1,9 @@
+export enum VehicleTypeEnum {
+  MOTORCYCLE = 'MOTORCYCLE',
+  SEDAN = 'SEDAN',
+  PICKUP = 'PICKUP',
+  RACK_PICKUP = 'RACK_PICKUP',
+  STAKE_TRUCK = 'STAKE_TRUCK',
+  PLATFORM = 'PLATFORM',
+  DRY_BOX = 'DRY_BOX',
+}
