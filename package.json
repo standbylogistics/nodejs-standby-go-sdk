@@ -1,6 +1,6 @@
 {
   "name": "@standby/go",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This is a NodeJS SDK to interact with StandBy API in a very easy way",
   "keywords": [
     "standby",
