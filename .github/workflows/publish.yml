@@ -45,4 +45,4 @@ jobs:
       - name: 🔍 Verify publication
         run: |
           echo "Verifying package..."
-          npm info @standby/go
+          npm info @standbylogistics/go
