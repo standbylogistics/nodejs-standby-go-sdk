@@ -1,5 +1,5 @@
 {
-  "name": "@standby/go",
+  "name": "@standbylogistics/go",
   "version": "0.0.2",
   "description": "This is a NodeJS SDK to interact with StandBy API in a very easy way",
   "keywords": [
@@ -26,7 +26,8 @@
     "dist"
   ],
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
