@@ -19,8 +19,7 @@ interface AuthToken {
 
 const ENVIRONMENTS = {
   production: 'https://api.standby.com.mx',
-  // development: 'https://dev.api.standby.com.mx',
-  development: 'http://localhost:3000',
+  development: 'https://dev.api.standby.com.mx',
 };
 
 export class HttpClient {
