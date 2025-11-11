@@ -25,4 +25,5 @@ export interface CreateOrderRequest {
   payment: PaymentTypeEnum;
   requiresSign: boolean;
   requiresEvidences: boolean;
+  metadata?: Record<string, any>;
 }
